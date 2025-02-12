@@ -309,6 +309,11 @@ h1, p {
       align-items: center;
   }
 
+  .main-form {
+    padding: 20px;
+    margin: 25px;
+  }
+
   .main-form h1 {
       font-size: 20px;
   }
@@ -360,12 +365,12 @@ h1, p {
 
   .table p{
     margin-top: 2px;
-    font-size: 8px;
+    font-size: 6px;
   }
   
   .table span{
     color: rgb(142, 142, 142);
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .table1 div{

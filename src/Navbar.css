@@ -1,0 +1,73 @@
+.main-div {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
+nav {
+    margin: 0px 100px;
+    border: 2px solid #0793ac;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+/* Links Styling (Visible on Large Screens) */
+nav .links {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    font-size: 15px;
+}
+
+nav a:active {
+    color: white;
+}
+
+/* Button Styling */
+nav button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px; /* Adjusted for better mobile fit */
+    border-radius: 10px;
+    gap: 5px;
+    font-size: 14px; /* Reduced font size */
+    background-color: white;
+}
+
+img {
+    width: 100px;
+}
+
+/* 🔥 Mobile Responsive Design (Hides Links + Adjusts Button) */
+@media screen and (max-width: 767px) {
+    nav {
+        margin: 0 30px; /* Reduced margin */
+        padding: 10px 15px;
+        margin-left: 0px;
+    }
+
+    /* Hide links on small screens */
+    nav .links {
+        display: none !important;
+    }
+
+    /* Reduce button size for smaller screens */
+    nav button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    /* Reduce logo size for small screens */
+    img {
+        width: 80px;
+    }
+}

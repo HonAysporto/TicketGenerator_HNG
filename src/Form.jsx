@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import "./Form.css";
 import Navbar from "./Navbar";
-import FileUpload from "./FileUpload";
+
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { useFormik } from "formik";

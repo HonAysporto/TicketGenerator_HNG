@@ -1,5 +1,4 @@
 import './Ticket.css';
-import image from '../public/Image/hnggg.png';
 import Navbar from './Navbar';
 import barcode from '../public/Image/bar.png';
 import { useEffect, useState } from 'react';
